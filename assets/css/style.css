@@ -132,8 +132,19 @@ hr {
 
   .container {
     max-width: 1440px;
-    margin: auto;
+    margin: 7rem auto;
     background-color: var(--light);
+    width: 50%;
+  }
+
+  .container,
+  img {
+    border-radius: 1rem;
+  }
+
+  img {
+    margin: 2rem;
+    width: 92%;
   }
 }
 /* DESKTOP */
