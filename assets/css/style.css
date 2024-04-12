@@ -16,6 +16,105 @@
 }
 /* CSS RESET */
 
+body {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  max-width: 375px;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  margin-top: 42px;
+  margin-bottom: 1.9rem;
+  font-weight: 700;
+  font-size: xx-large;
+}
+
+p,
+span {
+  color: #807d7a;
+  font-size: 14px;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background-color: #fff7fc;
+  padding: 4rem;
+  border-radius: 0.7rem;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card-title {
+  color: #77284b;
+  margin-top: -2.6rem;
+  margin-left: -2.4rem;
+  margin-bottom: 1rem;
+}
+
+.card-body {
+  margin-bottom: -3rem;
+}
+
+.card-body li {
+  margin-left: -1rem;
+  margin-bottom: 1rem;
+}
+
+section {
+  margin: 2rem;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+}
+
+h2,
+ul,
+ol,
+#nutrition strong {
+  color: var(--nutmeg);
+}
+
+li {
+  padding-left: 1rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+strong {
+  color: var(--wenge-brown);
+}
+
+hr {
+  margin-left: 2rem;
+  width: calc(100% - 4rem);
+}
+
+#nutrition li {
+  list-style-type: none;
+}
+
+#nutrition strong {
+  margin-left: 5rem;
+  text-align-last: right;
+}
+
+#nutrition hr {
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-left: 0rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -24,3 +123,17 @@
 .attribution a {
   color: #3e52a3;
 }
+/* MOBILE */
+
+@media only screen and (min-width: 1440px) {
+  body {
+    background-color: var(--eggshell);
+  }
+
+  .container {
+    max-width: 1440px;
+    margin: auto;
+    background-color: var(--light);
+  }
+}
+/* DESKTOP */
